@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags for SEO -->
+    <meta
+      name="description"
+      content="Stay tuned for something amazing from Pythia Insights."
+    />
+    <meta name="keywords" content="Pythia Insights, New Website, Launch Soon" />
+    <meta name="author" content="Pythia Insights" />
+    <title>Pythia Insights</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
+    <style>
+      body {
+        font-family: "Geologica", sans-serif;
+        background: linear-gradient(to bottom right, #1d3a51, #5bd8ea);
+        transition: background 1s ease-in-out;
+      }
+    </style>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center min-h-screen text-white"
+  >
+    <div
+      class="flex flex-col items-center justify-center flex-grow text-center"
+    >
+      <img
+        src="./assets/logo.png"
+        alt="Logo"
+        class="mx-auto w-32 h-32 mb-4 rounded-xl"
+      />
+      <h1 class="text-3xl font-bold">Coming Soon!</h1>
+    </div>
+    <footer class="text-center text-sm sm:text-base pb-4 flex flex-col gap-2">
+      <p>Pythia Insights, Registration Number NI725552</p>
+      <p>© <span id="year"></span> Pythia Insights | All Rights Reserved</p>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
